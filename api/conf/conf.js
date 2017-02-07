@@ -51,10 +51,10 @@ module.exports = {
       solrHost: '127.0.0.1',
       solrPort: '4000',
       dbUrl: {
-        local: 'mongodb://localhost:27017/ExampleCompany-local',
-        newFeatureReview: 'mongodb://localhost:27017/ExampleCompany-newfeature-review',
-        productionMirror: 'mongodb://localhost:27017/ExampleCompany-production-mirror',
-        production: 'mongodb://localhost:27017/ExampleCompany-production',
+        local: 'mongodb://localhost/ExampleCompany-local',
+        newFeatureReview: 'mongodb://localhost/ExampleCompany-newfeature-review',
+        productionMirror: 'mongodb://localhost/ExampleCompany-production-mirror',
+        production: 'mongodb://localhost/ExampleCompany-production',
       },
       acceptedClientAdminEmails: {
         ExampleCompany: {
