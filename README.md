@@ -1,38 +1,6 @@
 # Koneksys Linked Data (KLD)
 
-# Full-text search
-
-![Logo](https://github.com/koneksys/KLD/raw/master/screenshots/search.png)
-
-# Type viewer
-
-![Logo](https://github.com/koneksys/KLD/raw/master/screenshots/typeslist.png)
-
-![Logo](https://github.com/koneksys/KLD/raw/master/screenshots/typesvis.png)
-
-# Resource Editor
-
-![Logo](https://github.com/koneksys/KLD/raw/master/screenshots/edit.png)
-
-# SPARQL Client
-
-![Logo](https://github.com/koneksys/KLD/raw/master/screenshots/sparql.png)
-
-# RDF Import
-
-![Logo](https://github.com/koneksys/KLD/raw/master/screenshots/rdfimport.png)
-
-# OSLC Import
-![Logo](https://github.com/koneksys/KLD/raw/master/screenshots/oslcimport.png)
-
-```
-Contributors
-    Vorachet Jaroensawas, Koneksys (vorachet.jaroensawas@koneksys.com)
-    Axel Reichwein, Koneksys (axel.reichwein@koneksys.com)  
-```
-
-
-# License
+## License
 
 The MIT License (MIT)
 
