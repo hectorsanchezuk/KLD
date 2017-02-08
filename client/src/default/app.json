@@ -1,7 +1,7 @@
 {
-  "title": "Koneksys LD", 
+  "title": "Koneksys LD",
   "logoutDelayMS": 20000,
-  "headerText": "Koneksys Linked Data", 
+  "headerText": "Koneksys Linked Data",
   "maxImportFileSizeInBytes": 10000000,
   "langs" : {
     "en" : {
@@ -9,7 +9,7 @@
       "tab.dashboard": "Dashboard",
       "tab.datasets": "Provisioning",
       "tab.appstore": "App Store",
-      "tab.types": "Types",
+      "tab.types": "Cities",
       "tab.sparql": "SPARQL",
       "tab.fulltextsearch": "Full-Text Search",
       "tab.searchandedit": "Search & Edit",

@@ -84,12 +84,13 @@ export default class HomeController {
       admin: 'cog',
       import: 'cloud-upload',
       searchandedit: 'search',
-      types: 'info-sign',
+      types: 'list',
       sparql: 'flash',
       datasets: 'cog',
       dashboard: 'dashboard',
       appstore: 'th',
-      contact: 'user'
+      contact: 'user',
+      cities: 'list'
     };
   }
 

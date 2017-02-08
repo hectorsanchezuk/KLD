@@ -51,6 +51,8 @@ export default class TypesController {
     let self = this,
       queryStmt;
 
+    console.log(this);
+
     this.attrBlock = {
       creationDate: new Date(),
       subject: {
@@ -119,6 +121,8 @@ export default class TypesController {
     let self = this,
       queryStmt;
 
+    console.log('Loading Cities');
+
     this.collapse = true;
     this.total = total;
     this.currentUri = uri;
@@ -133,6 +137,7 @@ export default class TypesController {
       try {
         json = JSON.parse(resources);
         self.typeInstances = json.results.bindings;
+        // console.log(self.typeInstances);
         self.vis.buildVis(self.typeInstances, self.currentUri, function (graphVisData) {
           self.graph = graphVisData;
         });
@@ -199,9 +204,17 @@ export default class TypesController {
               name: map.split('/').pop().split('#').pop(),
               num: maps[map]
             });
+            self.types.forEach(function (type, index) {
+              // console.log(JSON.stringify(type) + ': ' + index);
+              if (type.name === 'City') {
+                self.listInstances(type.name, type.uri, type.num);
+              }
+            });
+
             if (keys.length === index + 1) {
               self.r.types = self.types;
             }
+
           });
         }
       }
